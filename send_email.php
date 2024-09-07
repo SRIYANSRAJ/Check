@@ -4,8 +4,8 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';  // Gmail SMTP server
     $mail->SMTPAuth = true;
-    $mail->Username = 'your_email@gmail.com';  // Your Gmail address
-    $mail->Password = 'your_gmail_password';  // Your Gmail password or app-specific password
+    $mail->Username = 'sriyansraj02@gmail.com';  // Your Gmail address
+    $mail->Password = 'St@115139';  // Your Gmail password or app-specific password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;  // TCP port to connect to, use 465 for `ssl`
     
